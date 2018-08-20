@@ -1,0 +1,69 @@
+baseurl = "/"
+title = "CRJ 504 Applies Statistics - Fall 2018"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+
+# Pagination
+paginate = 3
+paginatePath = "page"
+
+# Theme to use
+theme = "hugo-bootstrap"
+
+publishDir = "docs/"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Google analytics
+# googleAnalytics = "UA-47268287-3"
+
+[languages.en]
+  languageName = "English"
+
+  # Replace the default footer message with a localized message
+  copyright = "This work is licensed under a Creative Commons Attribution 4.0 International License."
+
+  [[languages.en.menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+  [[languages.en.menu.main]]
+    url = "/syllabus/"
+    name = "Syllabus"
+    weight = 2
+  [[languages.en.menu.main]]
+    url = "/schedule/"
+    name = "Schedule"
+    weight = 3
+
+
+# Links format
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
+[params]
+  # Main sections (currently used for the recent posts in the sidebar)
+  mainSections = ["post"]
+
+  # Default author
+  author = "Jason Bryer"
+
+  # Date format (default: Jan 2, 2006)
+  # date_format = "Jan 2, 2006"
+
+  # Display post summaries instead of content in list templates (default: true)
+  # truncate = false
+
+  [params.sidebar]
+    # Whether to show the recent posts or not (default: true)
+    # showRecent = false
+
+    # Whether to show the taxonomies or not (default: true)
+    # showTaxonomy = false
+
+    # How many posts to show on the sidebar (Default: 5)
+    # num_recent_posts = 5
