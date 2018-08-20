@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on CRJ 504 Applies Statistics - Fall 2018</title>
-    <link>/post/</link>
+    <link>/CRJ504Fall2018/post/</link>
     <description>Recent content in Posts on CRJ 504 Applies Statistics - Fall 2018</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
     <lastBuildDate>Mon, 20 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/CRJ504Fall2018/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Welcome to CRJ 504</title>
-      <link>/2018/08/welcome-to-crj-504/</link>
+      <link>/CRJ504Fall2018/2018/08/welcome-to-crj-504/</link>
       <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/08/welcome-to-crj-504/</guid>
+      <guid>/CRJ504Fall2018/2018/08/welcome-to-crj-504/</guid>
       <description>&lt;p&gt;Welcome to CRJ 504!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
