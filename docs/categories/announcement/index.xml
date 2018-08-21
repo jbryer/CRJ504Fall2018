@@ -6,20 +6,10 @@
     <description>Recent content in Announcement on CRJ 504 Applies Statistics - Fall 2018</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/announcement/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Installing R</title>
-      <link>/2018/08/installing-r/</link>
-      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/08/installing-r/</guid>
-      <description>In the course we will use the R statistical program to conduct analysis. The current version of R is R version 3.5.1 (2018-07-02). However, we will generally use RStudio to interact with R. Instructions to download and install R and RStudio are provided below. For a brief history of R, check out Nick Thieme’s article, R generation.
- Below are links to R and RStudio for Windows and Mac. Once downloaded, install these programs.</description>
-    </item>
     
     <item>
       <title>Welcome to CRJ 504</title>
@@ -32,9 +22,11 @@
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Complete this brief survey (your responses are anonymous): &lt;a href=&#34;https://excelsior.eu.qualtrics.com/jfe/form/SV_2498pg03yVftSoB&#34;&gt;https://excelsior.eu.qualtrics.com/jfe/form/SV_2498pg03yVftSoB&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Review the course syllabus.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Review the course syllabus: &lt;a href=&#34;http://crj504.bryer.org/syllabus/&#34;&gt;http://crj504.bryer.org/syllabus/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Review chapter one of the text book.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Try to install R and RStudio. Instructions are located here: &lt;a href=&#34;http://crj504.bryer.org/2018/08/installing-r/&#34;&gt;http://crj504.bryer.org/2018/08/installing-r/&lt;/a&gt; If you have issues, we can resolve them during the first class.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

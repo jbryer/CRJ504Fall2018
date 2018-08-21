@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on CRJ 504 Applies Statistics - Fall 2018</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on CRJ 504 Applies Statistics - Fall 2018</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing R</title>
+      <link>/2018/08/installing-r/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/installing-r/</guid>
+      <description>In the course we will use the R statistical program to conduct analysis. The current version of R is R version 3.5.1 (2018-07-02). However, we will generally use RStudio to interact with R. Instructions to download and install R and RStudio are provided below. For a brief history of R, check out Nick Thieme’s article, R generation.
+ Below are links to R and RStudio for Windows and Mac. Once downloaded, install these programs.</description>
+    </item>
+    
+  </channel>
+</rss>
