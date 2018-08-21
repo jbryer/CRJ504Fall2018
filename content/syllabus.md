@@ -7,7 +7,8 @@ title: "Syllabus"
 ### Class Location and Time
 
 Location: Husted Hall 013  
-Time: Mondays 5:45pm to 8:35
+Time: Mondays 5:45pm to 8:35  
+Website: crj504.bryer.org
 
 ### Instructor
 
@@ -53,15 +54,14 @@ Wickham, H., & Grolemund, G. (2016) *R for Data Science*. O'Reilly.
 
 ### Grading
 
-* Homework (32%)
-* Labs (%)
-* Data Project (%)
-* Final exam (18%)
+* Homework: 32%
+* Labs: 20%
+* Data Project: 30%
+* Final exam: 18%
 
 #### Additional course policies
 
 This course will be conducted in accordance with all policies described in the Graduate Bulletin: http://www.albany.edu/graduatebulletin/admission_graduate_requirements.htm. Consistent with this policy, excusal from an exam will only be permitted in cases of documented family, health, or work emergency. Any such compelling reason must be communicated to me as soon as you become aware of it, or as soon as you reasonably can thereafter.
-
 
 II anticipate that you are all well aware of issues pertaining to academic integrity, but you may also refer to the Graduate Bulletin for additional information with this regard.
 

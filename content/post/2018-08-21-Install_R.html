@@ -1,0 +1,19 @@
+---
+title: Installing R
+date: 2018-08-21
+categories: ["announcement"]
+---
+
+
+
+<p>In the course we will use the R statistical program to conduct analysis. The current version of R is R version 3.5.1 (2018-07-02). However, we will generally use <a href="https://www.rstudio.com/">RStudio</a> to interact with R. Instructions to download and install <a href="https://www.r-project.org/">R</a> and <a href="https://www.rstudio.com/">RStudio</a> are provided below. For a brief history of R, check out Nick Thieme’s article, <a href="https://rss.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1740-9713.2018.01169.x"><em>R generation</em></a>.</p>
+<!--more-->
+<p>Below are links to R and RStudio for Windows and Mac. Once downloaded, install these programs. Once installed, you will only use RStudio, but for it to work you must also install R.</p>
+<ul>
+<li>Download installers for Windows: <a href="https://cran.r-project.org/bin/windows/base/R-3.5.1-win.exe">R</a> and <a href="https://download1.rstudio.org/RStudio-1.1.456.exe">RStudio</a></li>
+<li>Download installers for Mac: <a href="https://cran.r-project.org/bin/macosx/R-3.5.1.pkg">R</a> and <a href="https://download1.rstudio.org/RStudio-1.1.456.dmg">RStudio</a></li>
+</ul>
+<p>Once you have installed these programs, open RStudio and cut and paste the following commands into the Console:</p>
+<pre class="r"><code>install.packages(c(&#39;tidyverse&#39;, &#39;devtools&#39;, &#39;openintro&#39;, &#39;fivethirtyeight&#39;, 
+                   &#39;likert&#39;, &#39;OIdata&#39;, &#39;psych&#39;, &#39;shiny&#39;, &#39;knitr&#39;, &#39;markdown&#39;))
+devtools::install_github(&#39;jbryer/DATA606&#39;)</code></pre>

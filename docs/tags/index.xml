@@ -2,13 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on CRJ 504 Applies Statistics - Fall 2018</title>
-    <link>/CRJ504Fall2018/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on CRJ 504 Applies Statistics - Fall 2018</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution 4.0 International License.</copyright>
     
-	<atom:link href="/CRJ504Fall2018/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

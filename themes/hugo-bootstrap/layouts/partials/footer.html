@@ -3,7 +3,7 @@
 {{ $links := (dict "Xzya" $Xzya "HugoThemeBootstrap4Blog" $HugoThemeBootstrap4Blog ) }}
 {{ $thanks := i18n "thanks" $links | safeHTML }}
 
-{{ $copyright := default $thanks .Site.Copyright }}
+{{ $copyright := default .Site.Copyright }}
 
 <footer class="blog-footer w-100">
     <nav class="navbar navbar-light bg-light">
