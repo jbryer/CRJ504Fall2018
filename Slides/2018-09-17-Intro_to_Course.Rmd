@@ -1,7 +1,7 @@
 ---
 title: "CRJ504 - Applied Statistics"
 author: Jason Bryer, Ph.D.
-date: Fall 2018
+date: September 17, 2018
 knit: (function(inputFile, encoding) { input.dir <- normalizePath(dirname(inputFile)); rmarkdown::render(input = inputFile, encoding = encoding, quiet=FALSE, output_file = paste0(input.dir,'/../docs/slides/', tools::file_path_sans_ext(basename(inputFile)), '.html')); })
 output:
   ioslides_presentation:
@@ -65,20 +65,21 @@ Syllabus and course materials are here: [http://crj504.bryer.org](http://crj504.
 
 Date    | Chapter | Topic                          |
 --------|:-------:|--------------------------------|
-Sept-17 |    1    | Introduction to Stats          |
-Sept-24 |    1    | Introduction to Data           |
-Oct-1   |    2    | Probability                    |
-Oct-8   |    3    | Distributions                  |
-Oct-15  |    4    | Foundations for Inference      |
-Oct-22  |         | TBD                            |
+Aug-27  |         | **NO CLASS**                   |
+Sep-3   |         | **NO CLASS: Labor Day**        |
+Sept-17 |         | **NO CLASS: Rosh Hashanah**    |
+Sept-24 |    1    | Introduction to Stats          |
+Oct-1   |    1    | Introduction to Data           |
+Oct-8   |    2    | Probability                    |
+Oct-15  |    3    | Distributions                  |
+Oct-22  |    4    | Foundations for Inference      |
 Oct-29  |    5    | Inference for Numerical Data   |
 Nov-5   |    6    | Inference for Categorical Data |
 Nov-12  |    7    | Linear Regression              |
 Nov-19  |    7    | Linear Regression              |
 Nov-26  |    8    | Multiple Regression            |
 Dec-3   |    8    | Logistic Regression            |
-Dec-10  |         | Final Exam
-
+Dec-10  |         | Final Exam                     |
 ## Assignments
 
 * Homework: 32%
