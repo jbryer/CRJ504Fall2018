@@ -28,6 +28,7 @@ By then end of the course, students should be able to:
 * Model situations involving uncertainty using appropriate probability distributions and conditional techniques.
 * Explore and summarize data using descriptive statistics.
 * Test hypotheses using classical and modern computational techniques.
+* Perform and interpret regression models.
 
 
 ### Course Textbook
