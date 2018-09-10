@@ -6,10 +6,37 @@
     <description>Recent content on CRJ 504 Applies Statistics - Fall 2018</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Class 1 - Introductions</title>
+      <link>/2018/09/class-1---introductions/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/class-1---introductions/</guid>
+      <description>&lt;p&gt;Resources from our first class:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/slides/2018-09-10-Intro_to_Course.html&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jbryer/CRJ504Fall2018/blob/master/R/StudentSurvey.R&#34;&gt;Analysis of survey results&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lab 0</title>
+      <link>/2018/09/lab-0/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/lab-0/</guid>
+      <description>&lt;p&gt;As discussed in our first class, there are two ways start this lab. You can download a zip file with all the necessary files here: &lt;a href=&#34;https://github.com/jbryer/CRJ504Fall2018/raw/master/labs/Lab0.zip&#34;&gt;https://github.com/jbryer/CRJ504Fall2018/raw/master/labs/Lab0.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Installing R</title>
