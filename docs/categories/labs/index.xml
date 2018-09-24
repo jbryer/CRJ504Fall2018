@@ -6,10 +6,21 @@
     <description>Recent content in Labs on CRJ 504 Applies Statistics - Fall 2018</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/labs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lab 1</title>
+      <link>/2018/09/lab-1/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/lab-1/</guid>
+      <description>&lt;p&gt;You can download a zip file with all the necessary files here: &lt;a href=&#34;https://github.com/jbryer/CRJ504Fall2018/raw/master/labs/Lab1.zip&#34;&gt;https://github.com/jbryer/CRJ504Fall2018/raw/master/labs/Lab1.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Lab 0</title>

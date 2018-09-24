@@ -23,11 +23,17 @@ library(lego)
 data(legosets)
 ```
 
-## Announcements
+## 
+
+### Announcements
 
 * Our November 12th class will be held online. Information on how to connect is forthcoming.
 
+### Agenda
 
+* Finish lecture on chapter 1
+* Work on lab 0
+* Start lab 1 (this will be the first graded lab)
 
 ## Sampling vs. Census
 
