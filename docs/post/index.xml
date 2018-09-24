@@ -6,10 +6,25 @@
     <description>Recent content in Posts on CRJ 504 Applies Statistics - Fall 2018</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Class 2 - Intro to Data</title>
+      <link>/2018/09/class-2---intro-to-data/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/class-2---intro-to-data/</guid>
+      <description>&lt;p&gt;Resources from our first class:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/slides/2018-09-24-Intro_to_Data.html&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Class 1 - Introductions</title>
@@ -44,7 +59,7 @@
       <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/08/installing-r/</guid>
-      <description>In the course we will use the R statistical program to conduct analysis. The current version of R is R version 3.5.1 (2018-07-02). However, we will generally use RStudio to interact with R. Instructions to download and install R and RStudio are provided below. For a brief history of R, check out Nick Thieme’s article, R generation.
+      <description>In the course we will use the R statistical program to conduct analysis. The current version of R is R version 3.4.4 (2018-03-15). However, we will generally use RStudio to interact with R. Instructions to download and install R and RStudio are provided below. For a brief history of R, check out Nick Thieme’s article, R generation.
  Below are links to R and RStudio for Windows and Mac. Once downloaded, install these programs.</description>
     </item>
     
