@@ -39,7 +39,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "/schedule/"
     name = "Schedule"
     weight = 3
-
+  [[languages.en.menu.main]]
+    url = "https://goo.gl/forms/Piz9HKoyCRQz4pJW2"
+    name = "Submit Homework"
+    weight  = 5
 
 # Links format
 

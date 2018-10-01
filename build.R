@@ -14,21 +14,32 @@ blogdown::build_site()
 blogdown::serve_site()
 blogdown::stop_server()
 
+##### RStudio Server
 
-# Build site for Github pages
-# build_mysite <- function(...) {
-# 	blogdown::build_site()
-# 	tocopy <- c(list.files("public", full.names = TRUE), list.dirs("public", full.names = TRUE))
-# 	copied <- file.copy(tocopy, 'docs', recursive = TRUE, overwrite = TRUE, copy.date = TRUE)
-# 	if(!all(copied)) {
-# 		warning(paste0("The following files or directories were not copied: ",
-# 					   paste0(tocopy[!copied], collapse = ', ')))
-# 	}
-# 	unlink('public', recursive = TRUE)
-# }
-#
-# build_mysite()
+if(!require(analogsea)) {
+	devtools::install_github("sckott/analogsea")
+	library(analogsea)
+}
 
-# Sometimes the file.copy doesn't work, then try this (it will replace the entire directory)
-# unlink("docs", recursive=TRUE); file.rename('public', 'docs')
+droplets() # List droplets
+
+rstudio.user <- 'rstudio'
+rstudio.pass <- getPass::getPass()
+
+# Create RStudio Docklet
+rstudio.docklet <- docklet_create(name = 'CRJ504-RStudio', region = 'nyc1')
+rstudio.docklet %>%
+	docklet_rstudio(user = rstudio.user, password = rstudio.pass,
+					port = '80', keyfile = '~/.ssh/crj504')
+
+rstudio.docklet <- droplets()[['CRJ504-RStudio']]
+rstudio.docklet$networks$v4[[1]]$ip_address # IP address
+
+# Add users
+rstudio.docklet %>% docklet_rstudio_addusers(user = 'stacia', pass = 'crj504',
+											 port = '80', keyfile = '~/.ssh/crj504')
+
+# Destroy Docklet
+droplet_delete(rstudio.docklet$id)
+
 

@@ -6,3 +6,4 @@ private/
 data/StudentSurvey.csv
 data/StudentSurvey.xlsx
 Slides/start/
+.httr-oauth
