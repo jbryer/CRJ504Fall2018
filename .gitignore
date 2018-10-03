@@ -7,3 +7,6 @@ data/StudentSurvey.csv
 data/StudentSurvey.xlsx
 Slides/start/
 .httr-oauth
+adduser.sh
+Roster.xls
+RStudio Setup.sh
