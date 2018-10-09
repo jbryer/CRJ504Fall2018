@@ -6,10 +6,33 @@
     <description>Recent content on CRJ 504 Applies Statistics - Fall 2018</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Class 4 - Distributions (Chapter 3)</title>
+      <link>/2018/10/class-4---distributions-chapter-3/</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/10/class-4---distributions-chapter-3/</guid>
+      <description>&lt;p&gt;Announcements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Our November 12th class will be held online. More information on how to connect will be provided as the date approaches.&lt;/li&gt;
+&lt;li&gt;Try to complete lab 1 by October 15th.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Resources from class:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/slides/2018-10-08-Distributions.html&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/jbryer/CRJ504Fall2018/master/R/2018-10-08.R&#34;&gt;R Script&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Class 3 - Probability</title>
