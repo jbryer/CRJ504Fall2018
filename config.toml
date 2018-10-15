@@ -40,6 +40,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "Schedule"
     weight = 3
   [[languages.en.menu.main]]
+    url = "/cheat_sheet/"
+    name = "R Commands"
+    weight = 4
+  [[languages.en.menu.main]]
     url = "https://goo.gl/forms/Piz9HKoyCRQz4pJW2"
     name = "Submit Homework"
     weight  = 5

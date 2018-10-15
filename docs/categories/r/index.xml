@@ -21,5 +21,14 @@
  Below are links to R and RStudio for Windows and Mac. Once downloaded, install these programs.</description>
     </item>
     
+    <item>
+      <title>R Cheat Sheet</title>
+      <link>/cheat_sheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cheat_sheet/</guid>
+      <description>Exploring with Data  str - The structure of the data frame head - The first six rows of the data frame tail - The last six rows of the data frame View - View the data frame in a spreasheet view dim - Dimensions of the data frame nrow - Number of rows in the data frame ncol - Number of columns in the data frame subset - Subset a data frame or vector   Descriptive Statistics  mean - Mean (or average) sd - Standard deviation median - Median IQR - Inter-quartile range table - Contingency table prop.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,44 @@
+---
+title: "R Cheat Sheet"
+categories: ["r"]
+---
+
+
+
+<div id="exploring-with-data" class="section level2">
+<h2>Exploring with Data</h2>
+<ul>
+<li><code>str</code> - The structure of the data frame</li>
+<li><code>head</code> - The first six rows of the data frame</li>
+<li><code>tail</code> - The last six rows of the data frame</li>
+<li><code>View</code> - View the data frame in a spreasheet view</li>
+<li><code>dim</code> - Dimensions of the data frame</li>
+<li><code>nrow</code> - Number of rows in the data frame</li>
+<li><code>ncol</code> - Number of columns in the data frame</li>
+<li><code>subset</code> - Subset a data frame or vector</li>
+</ul>
+</div>
+<div id="descriptive-statistics" class="section level2">
+<h2>Descriptive Statistics</h2>
+<ul>
+<li><code>mean</code> - Mean (or average)</li>
+<li><code>sd</code> - Standard deviation</li>
+<li><code>median</code> - Median</li>
+<li><code>IQR</code> - Inter-quartile range</li>
+<li><code>table</code> - Contingency table</li>
+<li><code>prop.table</code> - Proportional table (note takes the results of <code>table</code> as a parameter)</li>
+<li><code>psych::describe</code> - Common descriptive statistics</li>
+<li><code>psych::describeBy</code> - Common descriptive statistics by a grouping (qualitative) variable</li>
+<li><code>cor</code> - Correlation</li>
+</ul>
+</div>
+<div id="plots" class="section level2">
+<h2>Plots</h2>
+<ul>
+<li>Data <code>ggplot(myDataFrame, aes(x=x, y=y)</code></li>
+<li>Layers <code>geom_point()</code>, <code>geom_histogram()</code>, <code>geom_bar()</code>, <code>geom_boxplot()</code>, <code>geom_text()</code></li>
+<li>Facets <code>facet_wrap(~ cut)</code>, <code>facet_grid(~ cut)</code></li>
+<li>Scales <code>scale_y_log10()</code></li>
+<li>Other options <code>ggtitle('my title')</code>, <code>ylim(c(0, 10000))</code>, <code>xlab('x-axis label')</code></li>
+</ul>
+</div>

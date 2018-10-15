@@ -5,10 +5,10 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Schedule" />
-<meta property="og:description" content="" />
+<meta property="og:title" content="R Cheat Sheet" />
+<meta property="og:description" content="Exploring with Data  str - The structure of the data frame head - The first six rows of the data frame tail - The last six rows of the data frame View - View the data frame in a spreasheet view dim - Dimensions of the data frame nrow - Number of rows in the data frame ncol - Number of columns in the data frame subset - Subset a data frame or vector   Descriptive Statistics  mean - Mean (or average) sd - Standard deviation median - Median IQR - Inter-quartile range table - Contingency table prop." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/schedule/" />
+<meta property="og:url" content="/cheat_sheet/" />
 
 
 
@@ -26,16 +26,16 @@
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Schedule"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="R Cheat Sheet"/>
+<meta name="twitter:description" content="Exploring with Data  str - The structure of the data frame head - The first six rows of the data frame tail - The last six rows of the data frame View - View the data frame in a spreasheet view dim - Dimensions of the data frame nrow - Number of rows in the data frame ncol - Number of columns in the data frame subset - Subset a data frame or vector   Descriptive Statistics  mean - Mean (or average) sd - Standard deviation median - Median IQR - Inter-quartile range table - Contingency table prop."/>
 
 
 
-    <link rel="canonical" href="/schedule/">
+    <link rel="canonical" href="/cheat_sheet/">
 
     <title>
       
-        Schedule | CRJ 504 Applies Statistics - Fall 2018
+        R Cheat Sheet | CRJ 504 Applies Statistics - Fall 2018
       
     </title>
 
@@ -77,13 +77,13 @@
                     
                 </li>
                 
-                <li class="nav-item active">
+                <li class="nav-item ">
                     
                         <a class="nav-link" href="/schedule/">Schedule</a>
                     
                 </li>
                 
-                <li class="nav-item ">
+                <li class="nav-item active">
                     
                         <a class="nav-link" href="/cheat_sheet/">R Commands</a>
                     
@@ -117,7 +117,7 @@
 
 <header>
     <h2 class="blog-post-title">
-        <a class="text-dark" href="/schedule/">Schedule</a>
+        <a class="text-dark" href="/cheat_sheet/">R Cheat Sheet</a>
     </h2>
     
 
@@ -134,143 +134,51 @@
 <div class="blog-post-categories text-secondary">
     <strong>Categories:</strong>
     
-        <a class="badge badge-primary" href="/categories/schedule">schedule</a>
+        <a class="badge badge-primary" href="/categories/r">r</a>
     
 </div>
 
     <hr>
 </header>
 <article class="blog-post">
-    <p></p>
+    <div id="exploring-with-data" class="section level2">
+<h2>Exploring with Data</h2>
+<ul>
+<li><code>str</code> - The structure of the data frame</li>
+<li><code>head</code> - The first six rows of the data frame</li>
+<li><code>tail</code> - The last six rows of the data frame</li>
+<li><code>View</code> - View the data frame in a spreasheet view</li>
+<li><code>dim</code> - Dimensions of the data frame</li>
+<li><code>nrow</code> - Number of rows in the data frame</li>
+<li><code>ncol</code> - Number of columns in the data frame</li>
+<li><code>subset</code> - Subset a data frame or vector</li>
+</ul>
+</div>
+<div id="descriptive-statistics" class="section level2">
+<h2>Descriptive Statistics</h2>
+<ul>
+<li><code>mean</code> - Mean (or average)</li>
+<li><code>sd</code> - Standard deviation</li>
+<li><code>median</code> - Median</li>
+<li><code>IQR</code> - Inter-quartile range</li>
+<li><code>table</code> - Contingency table</li>
+<li><code>prop.table</code> - Proportional table (note takes the results of <code>table</code> as a parameter)</li>
+<li><code>psych::describe</code> - Common descriptive statistics</li>
+<li><code>psych::describeBy</code> - Common descriptive statistics by a grouping (qualitative) variable</li>
+<li><code>cor</code> - Correlation</li>
+</ul>
+</div>
+<div id="plots" class="section level2">
+<h2>Plots</h2>
+<ul>
+<li>Data <code>ggplot(myDataFrame, aes(x=x, y=y)</code></li>
+<li>Layers <code>geom_point()</code>, <code>geom_histogram()</code>, <code>geom_bar()</code>, <code>geom_boxplot()</code>, <code>geom_text()</code></li>
+<li>Facets <code>facet_wrap(~ cut)</code>, <code>facet_grid(~ cut)</code></li>
+<li>Scales <code>scale_y_log10()</code></li>
+<li>Other options <code>ggtitle('my title')</code>, <code>ylim(c(0, 10000))</code>, <code>xlab('x-axis label')</code></li>
+</ul>
+</div>
 
-<p><em>Tentative, subject to change</em></p>
-
-<table>
-<thead>
-<tr>
-<th>Date</th>
-<th align="center">Chapter</th>
-<th>Topic</th>
-<th>Homework<sup>1</sup></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Aug-27</td>
-<td align="center"></td>
-<td><strong>NO CLASS</strong></td>
-<td></td>
-</tr>
-
-<tr>
-<td>Sep-3</td>
-<td align="center"></td>
-<td><strong>NO CLASS: Labor Day</strong></td>
-<td></td>
-</tr>
-
-<tr>
-<td>Sept-10</td>
-<td align="center"></td>
-<td><strong>NO CLASS: Rosh Hashanah</strong></td>
-<td></td>
-</tr>
-
-<tr>
-<td>Sept-17</td>
-<td align="center">1</td>
-<td>Introduction to Statistics</td>
-<td></td>
-</tr>
-
-<tr>
-<td>Sept-24</td>
-<td align="center">1</td>
-<td>Introduction to Data</td>
-<td>1.8, 1.10, 1.28, 1.36, 1.48, 1.50, 1.56, 1.70</td>
-</tr>
-
-<tr>
-<td>Oct-1</td>
-<td align="center">2</td>
-<td>Probability</td>
-<td>2.6, 2.8, 2.20, 2.30, 2.38, 2.44</td>
-</tr>
-
-<tr>
-<td>Oct-8</td>
-<td align="center">3</td>
-<td>Distributions</td>
-<td>3.2, 3.4, 3.18, 3.22, 3.38, 3.42</td>
-</tr>
-
-<tr>
-<td>Oct-15</td>
-<td align="center">4</td>
-<td>Foundations for Inference</td>
-<td>4.4, 4.14, 4.24, 4.26, 4.34, 4.40, 4.48</td>
-</tr>
-
-<tr>
-<td>Oct-22</td>
-<td align="center">5</td>
-<td>Inference for Numerical Data</td>
-<td>5.6, 5.14, 5.20, 5.32, 5.48</td>
-</tr>
-
-<tr>
-<td>Oct-29</td>
-<td align="center">6</td>
-<td>Inference for Categorical Data</td>
-<td>6.6, 6.12, 6.20, 6.28, 6.44, 6.48</td>
-</tr>
-
-<tr>
-<td>Nov-5</td>
-<td align="center">7</td>
-<td>Linear Regression</td>
-<td></td>
-</tr>
-
-<tr>
-<td>Nov-12</td>
-<td align="center">7</td>
-<td>Linear Regression <br /><strong>This class will be held online</strong></td>
-<td>7.24, 7.26, 7.30, 7.40</td>
-</tr>
-
-<tr>
-<td>Nov-19</td>
-<td align="center">8</td>
-<td>Multiple Regression</td>
-<td></td>
-</tr>
-
-<tr>
-<td>Nov-26</td>
-<td align="center">8</td>
-<td>Logistic Regression</td>
-<td>8.2, 8.4, 8.8, 8.16, 8.18</td>
-</tr>
-
-<tr>
-<td>Dec-3</td>
-<td align="center"></td>
-<td>TBD</td>
-<td></td>
-</tr>
-
-<tr>
-<td>Dec-10</td>
-<td align="center"></td>
-<td>Final Exam</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
-<p><sup>1</sup> Homework is due the following week.</p>
 
     
 
