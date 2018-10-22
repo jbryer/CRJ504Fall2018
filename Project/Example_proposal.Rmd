@@ -1,5 +1,5 @@
 ---
-title: DATA 606 Data Project Proposal
+title: Data Project Proposal
 author: Jason Bryer, Ph.D.
 ---
 

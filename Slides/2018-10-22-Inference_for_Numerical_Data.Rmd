@@ -35,7 +35,21 @@ par(mar=c(2.5,1,2,1))
 
 ```
 
+##
 
+### Announcements
+
+* November 12, 2018 class is canceled. I can be available later that week to answer questions.
+* Project
+	* Please attempt to complete the project proposal by next week (October 29)
+	* Can be completed in groups of two or three
+	* Proposal template can be downloaded here: https://raw.githubusercontent.com/jbryer/CRJ504Fall2018/master/Project/proposal_template.Rmd
+	* Example proposal here: https://htmlpreview.github.io/?https://github.com/jbryer/CRJ504Fall2018/blob/master/Project/Example_proposal.html
+	
+### Agenda
+
+* Chapter 5 lecture
+* Work on lab 4a
 
 ## High School & Beyond Survey  {.flexbox .vcenter}
 

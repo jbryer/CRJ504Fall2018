@@ -1,6 +1,6 @@
 ---
 title: Relationship between SAT Scores and First-Year College Retention
-subtitle: DATA 606 Data Project Proposal
+subtitle: Data Project Proposal
 author: Jason Bryer, Ph.D.
 ---
 
