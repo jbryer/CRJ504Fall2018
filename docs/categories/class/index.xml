@@ -6,10 +6,33 @@
     <description>Recent content in Class on CRJ 504 Applies Statistics - Fall 2018</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/class/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Class 6 - Inference for Numerical Data (Chapter 5)</title>
+      <link>/2018/10/class-6---inference-for-numerical-data-chapter-5/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/10/class-6---inference-for-numerical-data-chapter-5/</guid>
+      <description>&lt;p&gt;Announcements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href=&#34;/cheat_sheet&#34;&gt;R Cheat Sheet&lt;/a&gt; has been posted (see link on nav bar above)&lt;/li&gt;
+&lt;li&gt;Data for the homework can be downloaded here: &lt;a href=&#34;https://github.com/jbryer/DATA606Fall2018/tree/master/data/openintro.org&#34;&gt;https://github.com/jbryer/DATA606Fall2018/tree/master/data/openintro.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Resources from class:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/slides/2018-10-22-Inference_for_Numerical_Data.html&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/jbryer/CRJ504Fall2018/master/R/2018-10-22.R&#34;&gt;R Script&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Class 5 - Foundation for Inference (Chapter 4)</title>
@@ -22,6 +45,7 @@
 &lt;ul&gt;
 &lt;li&gt;The &lt;a href=&#34;/cheat_sheet&#34;&gt;R Cheat Sheet&lt;/a&gt; has been posted (see link on nav bar above)&lt;/li&gt;
 &lt;li&gt;Our November 12th class will be held online. More information on how to connect will be provided as the date approaches.&lt;/li&gt;
+&lt;li&gt;Data for the homework can be downloaded here: &lt;a href=&#34;https://github.com/jbryer/DATA606Fall2018/tree/master/data/openintro.org&#34;&gt;https://github.com/jbryer/DATA606Fall2018/tree/master/data/openintro.org&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Resources from class:&lt;/p&gt;
