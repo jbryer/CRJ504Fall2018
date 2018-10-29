@@ -6,10 +6,42 @@
     <description>Recent content in Posts on CRJ 504 Applies Statistics - Fall 2018</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Class 7 - Inference for Categorical Data (Chapter 6)</title>
+      <link>/2018/10/class-7---inference-for-categorical-data-chapter-6/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/10/class-7---inference-for-categorical-data-chapter-6/</guid>
+      <description>&lt;p&gt;Announcements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;November 12, 2018 class is cancelled. I can be available later that week to answer questions.&lt;/li&gt;
+&lt;li&gt;Project
+
+&lt;ul&gt;
+&lt;li&gt;Please attempt to complete the project proposal by next week (October 29)&lt;/li&gt;
+&lt;li&gt;Can be completed in groups of two or three&lt;/li&gt;
+&lt;li&gt;Proposal template can be downloaded here: &lt;a href=&#34;https://raw.githubusercontent.com/jbryer/CRJ504Fall2018/master/Project/proposal_template.Rmd&#34;&gt;https://raw.githubusercontent.com/jbryer/CRJ504Fall2018/master/Project/proposal_template.Rmd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Example proposal here: &lt;a href=&#34;https://htmlpreview.github.io/?https://github.com/jbryer/CRJ504Fall2018/blob/master/Project/Example_proposal.html&#34;&gt;https://htmlpreview.github.io/?https://github.com/jbryer/CRJ504Fall2018/blob/master/Project/Example_proposal.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;/cheat_sheet&#34;&gt;R Cheat Sheet&lt;/a&gt; has been posted (see link on nav bar above)&lt;/li&gt;
+&lt;li&gt;Data for the homework can be downloaded here: &lt;a href=&#34;https://github.com/jbryer/DATA606Fall2018/tree/master/data/openintro.org&#34;&gt;https://github.com/jbryer/DATA606Fall2018/tree/master/data/openintro.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Resources from class:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/slides/2018-10-29-Inference_for_Categorical_Data.html&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/jbryer/CRJ504Fall2018/master/R/2018-10-29.R&#34;&gt;R Script&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Class 6 - Inference for Numerical Data (Chapter 5)</title>
@@ -20,7 +52,7 @@
       <description>&lt;p&gt;Announcements:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;November 12, 2018 class is canceled. I can be available later that week to answer questions.&lt;/li&gt;
+&lt;li&gt;November 12, 2018 class is cancelled. I can be available later that week to answer questions.&lt;/li&gt;
 &lt;li&gt;Project
 
 &lt;ul&gt;
