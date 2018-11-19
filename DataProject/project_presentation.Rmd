@@ -1,0 +1,70 @@
+---
+title: "The Avengers"
+author: "Jason Bryer, Ph.D."
+date: "November 19, 2018"
+output:
+  ioslides_presentation:
+    self_contained: true
+    widescreen: true
+    smaller: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(ggplot2)
+library(knitr)
+library(psych)
+library(fivethirtyeight)
+
+data(avengers)
+```
+
+## Research Question
+
+The Avengers is a team of super heros who are attempting to keep Earth safe. The following dataset was retrieved from [FiveThirtyEight](https://fivethirtyeight.com/) who originally used the data for the report, ["Joining the Avengers is as Deadly as Jumping Off a Four-Story Building"](https://fivethirtyeight.com/features/avengers-death-comics-age-of-ultron/). Here, we wish to explore how age (as defined as the number of years since first appearance) and gender predict the total number of comic book appearances. Specifically:
+
+$$Appearances = b_{age}Age + b_{gender}Gender + b_0$$
+
+There are `r nrow(avengers)` observations. 
+
+
+## Years Since Joining
+
+```{r, echo=FALSE, results='asis'}
+kable(psych::describe(avengers$years_since_joining, skew = FALSE), row.names = FALSE)
+ggplot(avengers, aes(x = years_since_joining)) + geom_density()
+```
+
+## Gender
+
+```{r, echo=FALSE, results='asis', warning=FALSE}
+kable(cbind(table(avengers$gender), paste0(round(prop.table(table(avengers$gender))*100), '%')))
+ggplot(avengers, aes(x = gender)) + geom_bar()
+```
+
+## Appearances
+
+```{r, echo=FALSE, results='asis'}
+kable(psych::describeBy(avengers$appearances, group = avengers$gender, mat=TRUE, skew=FALSE), row.names=FALSE)
+ggplot(avengers, aes(x = appearances)) + geom_density()
+```
+
+##
+
+```{r, echo=FALSE, fig.width=10, fig.height=6}
+ggplot(avengers, aes(x = years_since_joining, y = appearances, color = gender)) + geom_point() + xlab('Years Since Joining Avengers') + ylab("Number of Appearances") + ggtitle('Number of Appearances by Years Since Joining and Gender')
+```
+
+## Analysis
+
+```{r}
+lm.out <- lm(appearances ~ years_since_joining + gender, data = avengers)
+summary(lm.out)
+```
+
+## Results
+
+Years since joining the Avengers and gender of the Avenger accounts for approximately 2% of the variance in the number of appearances. Age is not a statistically signficant predictor of appearances, but gender is with being male having an increase in the number of appearances.
+

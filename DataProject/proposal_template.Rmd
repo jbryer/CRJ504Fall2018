@@ -1,0 +1,87 @@
+---
+title: Data Project Proposal
+author: Jason Bryer
+---
+
+### Data Preparation
+
+```{r setup, echo=TRUE, results='hide', warning=FALSE, message=FALSE}
+# load data
+library(fivethirtyeight)
+library(ggplot2)
+data(avengers)
+```
+
+
+### Research question 
+
+**You should phrase your research question in a way that matches up with the scope of inference your dataset allows for.**
+
+Is there a relationship between the number of apperances, years since joining the Avengers, and the Avengers gender?
+
+### Cases 
+
+**What are the cases, and how many are there?**
+
+Each case represents an Avenger.
+
+```{r}
+nrow(avengers)
+```
+
+### Data collection 
+
+**Describe the method of data collection.**
+
+
+
+### Type of study 
+
+**What type of study is this (observational/experiment)?**
+
+Observational
+
+
+
+### Data Source 
+
+**If you collected the data, state self-collected. If not, provide a citation/link.**
+
+Five Thirty Eight
+
+https://fivethirtyeight.com/features/captain-america-civil-war-who-would-win/
+
+
+### Dependent Variable
+
+**What is the response variable? Is it quantitative or qualitative?**
+
+The number of appearances of the Avenger (quantitative)
+
+### Independent Variable
+
+**You should have two independent variables, one quantitative and one qualitative.**
+
+* Years since joining the Avengers (quantitative)
+* The Avenger's honary status (qualitative)
+
+### Relevant summary statistics 
+
+**Provide summary statistics for each the variables. Also include appropriate visualizations related to your research question (e.g. scatter plot, boxplots, etc). This step requires the use of R, hence a code chunk is provided below. Insert more code chunks as needed.**
+
+```{r}
+summary(avengers$appearances)
+sd(avengers$appearances)
+psych::describe(avengers$appearances)
+
+psych::describe(avengers$years_since_joining)
+
+table(avengers$honorary)
+prop.table(table(avengers$honorary)) * 100
+
+hist(avengers$appearances)
+
+ggplot(avengers, aes(x = years_since_joining, y = appearances, color = gender)) + geom_point()
+
+```
+
