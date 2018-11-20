@@ -29,6 +29,13 @@ par(mar=c(2.5,1,2,1))
 
 ```
 
+## Agenda
+
+* Another Regression Example
+* Sample data project presentation
+* Start lab 7
+* Working session (lab 7, data project)
+
 ## NYS Report Card
 
 NYS publishes data for each school in the state. We will look at the grade 8 math scores for 2012 and 2013. 2013 was the first year the tests were aligned with the Common Core Standards. There was a lot of press about how the passing rates for most schools dropped. Two questions we wish to answer:

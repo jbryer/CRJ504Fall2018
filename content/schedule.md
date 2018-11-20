@@ -23,7 +23,7 @@ Nov-5   |    7    | Linear Regression              | 7.24, 7.26, 7.30, 7.40
 Nov-12  |    7    | **NO CLASS**                   | 
 Nov-19  |    7    | Linear Regression / Data Projects | Lab 5 due
 Nov-26  |    8    | Multiple Regression & Logistic Regression            | 
-Dec-3   |         | TBD                            | 8.2, 8.4, 8.8, 8.16, 8.18 due
+Dec-3   |         | Working Session                | 8.2, 8.4, 8.8, 8.16, 8.18 due
 Dec-10  |         | Data project presentations     | Lab 7 due
 
 <sup>1</sup> Homework is due the following week.
