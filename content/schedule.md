@@ -20,7 +20,7 @@ Oct-15  |    4    | Foundations for Inference      | 4.4, 4.14, 4.24, 4.26, 4.34
 Oct-22  |    5    | Inference for Numerical Data   | 5.6, 5.14, 5.20, 5.32, 5.48
 Oct-29  |    6    | Inference for Categorical Data | 6.6, 6.12, 6.20, 6.28, 6.44, 6.48
 Nov-5   |    7    | Linear Regression              | 7.24, 7.26, 7.30, 7.40
-Nov-12  |    7    | **NO CLASS**                   | 
+Nov-12  |         | **NO CLASS**                   | 
 Nov-19  |    7    | Linear Regression / Data Projects | Lab 5 due
 Nov-26  |    8    | Multiple Regression & Logistic Regression            | 
 Dec-3   |         | Working Session                | 8.2, 8.4, 8.8, 8.16, 8.18 due
