@@ -6,10 +6,33 @@
     <description>Recent content on CRJ 504 Applies Statistics - Fall 2018</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Class 10 - Multiple Regressions (Chapter 8)</title>
+      <link>/2018/11/class-10---multiple-regressions-chapter-8/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/11/class-10---multiple-regressions-chapter-8/</guid>
+      <description>&lt;p&gt;Announcements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lab 7 will be due December 10th&lt;/li&gt;
+&lt;li&gt;Final exam will be distributed on December 10th, it is due by midnight December 16th&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Resources from class:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/slides/2018-11-126-Multiple_Regression.html&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/jbryer/CRJ504Fall2018/master/R/2018-11-26.R&#34;&gt;R Script&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Class 9 - Linear Regressions Part 2 (Chapter 7)</title>
